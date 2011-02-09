@@ -27,6 +27,9 @@ group :test, :development do
 end
 gem "autotest"
 
+group :test do
+gem 'webrat'
+end
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators

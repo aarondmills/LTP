@@ -5,6 +5,8 @@ LTP::Application.routes.draw do
 
   get "pages/contact"
 
+  get "pages/privacy"
+
   get "users/new"
 
   # The priority is based upon order of creation:
